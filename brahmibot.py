@@ -16,7 +16,7 @@ from langchain.llms import HuggingFacePipeline
 
 app = Flask(__name__)
 
-model_te_en = "pytorch-models/opus-mt-te-en"
+
 model_name = 'facebook/blenderbot-400M-distill'
 
 # Initialize the translator and the chatbot chain
